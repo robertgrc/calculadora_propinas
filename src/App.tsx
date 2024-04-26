@@ -32,10 +32,10 @@ function App() {
           <OrderContents 
             order={order}
             removeItem = {removeItem}
-          />
+            />
           
           <OrderTotals 
-            
+            order={order}
           />
         </div>
       </main>
